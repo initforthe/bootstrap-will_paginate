@@ -2,7 +2,7 @@ require 'will_paginate/view_helpers/action_view'
 
 module Bootstrap
   module WillPaginate
-    class LinkRenderer < WillPaginate::ActionView::LinkRenderer
+    class LinkRenderer < ::WillPaginate::ActionView::LinkRenderer
       protected
       
       def html_container(html)
