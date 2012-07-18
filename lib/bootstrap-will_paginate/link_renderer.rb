@@ -1,7 +1,7 @@
 require 'will_paginate/view_helpers/action_view'
 
 module Bootstrap
-  module Willpaginate
+  module WillPaginate
     class LinkRenderer < WillPaginate::ActionView::LinkRenderer
       protected
       
